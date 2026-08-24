@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Roger Barber | Estilo que Impõe</title>
+<style>
+:root{--g:#d7a62a;--bg:#080909;--card:#121414;--muted:#aaa}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:var(--bg);color:#fff;line-height:1.5}
+a{text-decoration:none;color:inherit}.gold{color:var(--g)}
+nav{height:78px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #292929;position:absolute;width:100%;z-index:2;background:#080909cc}
+.logo{font-weight:900;letter-spacing:3px;font-size:18px}.logo b{font-size:34px;color:var(--g)}
+.menu{display:flex;gap:25px;font-size:12px;font-weight:bold}.menu a:hover{color:var(--g)}
+.btn{display:inline-block;background:linear-gradient(135deg,#f0c54a,var(--g));color:#111;padding:13px 20px;border-radius:5px;font-weight:900}
+.hero{min-height:760px;padding:170px 7% 80px;display:flex;align-items:center;background:radial-gradient(circle at 80% 45%,#4a3510,#171717 28%,#080909 65%);position:relative;overflow:hidden}
+.hero:after{content:"ROGER";position:absolute;right:-40px;bottom:-100px;font-size:250px;font-weight:900;color:#ffffff05}
+.content{max-width:760px;z-index:1}.kicker{color:var(--g);font-weight:bold;letter-spacing:2px;font-size:13px}
+h1{font-size:clamp(48px,7vw,84px);line-height:.95;margin:18px 0;text-transform:uppercase}h1 span{color:var(--g)}
+.hero p{max-width:570px;color:#ccc;font-size:18px;margin-bottom:30px}.actions{display:flex;gap:12px;flex-wrap:wrap}.outline{border:1px solid var(--g);padding:12px 20px;border-radius:5px;color:var(--g);font-weight:bold}
+.stats{display:flex;gap:30px;margin-top:42px;flex-wrap:wrap}.stats div{border-left:1px solid #555;padding-left:14px}.stats strong{display:block;color:var(--g);font-size:23px}.stats small{color:#999}
+section{padding:80px 7%}.head{text-align:center;margin-bottom:40px}.head h2{font-size:38px}.head p{color:#999}
+.services{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.card{background:linear-gradient(145deg,#171919,#0e0f0f);border:1px solid #343434;border-radius:8px;padding:25px 15px;text-align:center;transition:.25s}.card:hover{transform:translateY(-5px);border-color:var(--g)}.icon{font-size:32px;color:var(--g);margin-bottom:12px}.card h3{font-size:15px}.card p{font-size:13px;color:#999;min-height:58px;margin:8px 0}.price{font-size:23px;font-weight:900}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;background:#0e1010;align-items:center}.art{height:350px;border-radius:12px;border:1px solid #333;background:radial-gradient(circle,#493610,#161616 40%,#080909 75%);display:flex;align-items:center;justify-content:center;font-size:150px;color:var(--g)}.about h2{font-size:40px}.about p{color:#aaa;margin:15px 0}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.photo{height:220px;border-radius:8px;background:linear-gradient(135deg,#3b2c13,#121313);display:flex;align-items:center;justify-content:center;text-align:center;font-weight:bold;color:#ddd;border:1px solid #292929}.photo:nth-child(2){background:linear-gradient(135deg,#222,#514019)}.photo:nth-child(3){background:linear-gradient(135deg,#514019,#151515)}
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.review{padding:24px;background:var(--card);border:1px solid #303333;border-radius:8px}.stars{color:#f2bd31;letter-spacing:3px}.review p{color:#bbb;margin:14px 0}
+.booking{margin:0 7% 70px;border:1px solid var(--g);padding:28px 32px;border-radius:8px;display:flex;justify-content:space-between;align-items:center;gap:20px;background:#14130e}.booking p{color:#aaa}
+footer{border-top:1px solid #292929;padding:40px 7%;display:grid;grid-template-columns:repeat(4,1fr);gap:25px;color:#999}footer h3{color:#fff;margin-bottom:10px}footer b{color:var(--g)}
+.whats{position:fixed;right:20px;bottom:20px;width:58px;height:58px;border-radius:50%;background:#20c765;display:flex;align-items:center;justify-content:center;font-size:25px;z-index:4}
+@media(max-width:900px){.menu{display:none}.services{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.reviews{grid-template-columns:1fr}footer{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){nav{padding:0 5%}.hero{padding:140px 5% 70px}.hero p{font-size:16px}section{padding:60px 5%}.services,.gallery{grid-template-columns:1fr}.photo{height:180px}.booking{margin-left:5%;margin-right:5%;flex-direction:column;align-items:flex-start}footer{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav>
+<a class="logo" href="#"><b>R</b> ROGER BARBER</a>
+<div class="menu"><a href="#servicos">SERVIÇOS</a><a href="#sobre">SOBRE</a><a href="#galeria">GALERIA</a><a href="#avaliacoes">AVALIAÇÕES</a><a href="#contato">CONTATO</a></div>
+<a class="btn" href="https://wa.me/5511987654321">AGENDAR</a>
+</nav>
+
+<header class="hero">
+<div class="content">
+<div class="kicker">ROGER BARBER</div>
+<h1>ESTILO QUE <span>IMPÕE.</span><br>CONFIANÇA QUE FICA.</h1>
+<p>Cortes masculinos de alta qualidade, atendimento exclusivo e acabamento impecável. Seu visual merece um padrão diferente.</p>
+<div class="actions"><a class="btn" href="https://wa.me/5511987654321">💬 AGENDAR PELO WHATSAPP</a><a class="outline" href="#servicos">VER SERVIÇOS ↓</a></div>
+<div class="stats"><div><strong>+3.800</strong><small>clientes satisfeitos</small></div><div><strong>+5 anos</strong><small>de história</small></div><div><strong>SP</strong><small>Rua Paulo Porpora, 5011</small></div></div>
+</div>
+</header>
+
+<section id="servicos"><div class="head"><div class="kicker">NOSSOS SERVIÇOS</div><h2>ESCOLHA SEU ESTILO</h2><p>Qualidade e precisão em cada detalhe.</p></div>
+<div class="services">
+<div class="card"><div class="icon">✂</div><h3>CORTE MASCULINO</h3><p>Corte completo com degradê e finalização.</p><div class="price">R$ 40</div></div>
+<div class="card"><div class="icon">♨</div><h3>BARBA</h3><p>Barba alinhada e acabamento profissional.</p><div class="price">R$ 30</div></div>
+<div class="card"><div class="icon">✂</div><h3>CORTE + BARBA</h3><p>O combo perfeito para renovar o visual.</p><div class="price">R$ 60</div></div>
+<div class="card"><div class="icon">〰</div><h3>SOBRANCELHA</h3><p>Design e alinhamento profissional.</p><div class="price">R$ 15</div></div>
+<div class="card"><div class="icon">◇</div><h3>PIGMENTAÇÃO</h3><p>Mais definição para seu visual.</p><div class="price">R$ 50</div></div>
+</div></section>
+
+<section class="about" id="sobre"><div class="art">♛</div><div><div class="kicker">SOBRE A ROGER BARBER</div><h2>Mais que uma barbearia.</h2><p>Um espaço pensado para quem valoriza estilo, confiança e atendimento diferenciado.</p><p>Do primeiro contato ao acabamento final, cada detalhe é feito para você sair daqui se sentindo ainda melhor.</p><a class="outline" href="#contato">CONHEÇA E AGENDE</a></div></section>
+
+<section id="galeria"><div class="head"><div class="kicker">GALERIA</div><h2>ALGUNS TRABALHOS</h2><p>Escolha seu próximo visual.</p></div><div class="gallery"><div class="photo">CORTE • DEGRADÊ</div><div class="photo">ESTILO • PRECISÃO</div><div class="photo">ACABAMENTO • PREMIUM</div><div class="photo">BARBA • DESIGN</div></div></section>
+
+<section id="avaliacoes"><div class="head"><div class="kicker">AVALIAÇÕES</div><h2>O QUE NOSSOS CLIENTES DIZEM</h2></div><div class="reviews">
+<div class="review"><div class="stars">★★★★★</div><p>“Atendimento top e corte sempre do jeito que eu gosto. Recomendo demais!”</p><b>Matheus S.</b></div>
+<div class="review"><div class="stars">★★★★★</div><p>“Ambiente diferenciado e profissionais qualificados. Saio sempre satisfeito.”</p><b>Lucas H.</b></div>
+<div class="review"><div class="stars">★★★★★</div><p>“Corte + barba impecável. Atendimento excelente e acabamento nota 10.”</p><b>Gabriel S.</b></div>
+</div></section>
+
+<div class="booking" id="contato"><div><h2>AGENDE SEU HORÁRIO E GARANTA SEU ESTILO!</h2><p>Atendimento exclusivo com horário marcado.</p></div><a class="btn" href="https://wa.me/5511987654321">💬 AGENDAR AGORA</a></div>
+
+<footer><div><h3><b>R</b> ROGER BARBER</h3><p>Mais que uma barbearia,<br>um estilo de vida.</p></div><div><h3>CONTATO</h3><p>📞 (11) 98765-4321</p><p>📷 @roger_barber_97</p><p>📍 Rua Paulo Porpora, 5011<br>São Paulo - SP</p></div><div><h3>HORÁRIO</h3><p>Terça a Sexta: 09:00 - 20:00</p><p>Sábado: 08:00 - 19:00</p><p>Domingo: 09:00 - 14:00</p></div><div><h3>SIGA-NOS</h3><p>Instagram • WhatsApp • TikTok</p></div></footer>
+<a class="whats" href="https://wa.me/5511987654321">◉</a>
+</body></html>
